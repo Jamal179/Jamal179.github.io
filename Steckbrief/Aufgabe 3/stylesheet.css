@@ -1,5 +1,27 @@
+h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 40pt;
+    background-color: #D1D1D1;
+    border-radius: 15px 50px; 
+    border-bottom: 4px dotted #CD0000;
+    style: center;
+    text-align: center;
+    text-shadow: 2px 2px 8px #7D7D7D
+}
+
+nav{
+  border-left: 6px solid #CD0000;
+  background-color: #D1D1D1;
+  border-radius: 15px 50px 30px 5px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 12pt;
+  table-layout: fixed;
+  width: 180px; 
+  }
+  
+
 body{ 
-    background-color: black;
+    background-color: #FFFFF1;
 
 }
 p {
