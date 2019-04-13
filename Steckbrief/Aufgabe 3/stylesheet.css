@@ -17,6 +17,13 @@ h2{
     text-decoration-line: underline;
     
 }
+
+.Flagge{
+  width: 5em;
+      height: 3em;
+     
+}
+
 h4{
     font-family: 'Montserrat', sans-serif;
     font-size: 20pt;
@@ -30,7 +37,8 @@ nav{
   font-size: 12pt;
   table-layout: fixed;
   width: 180px; 
-  }
+  float: left;
+}
 
   img {
       
@@ -72,3 +80,50 @@ p{
     text-shadow: 2px 2px 8px #7F7F7F
 
 }
+
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+ 
+  width: 0%;
+
+  transition: all ease-in-out 400ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+
+
+  
+
+
