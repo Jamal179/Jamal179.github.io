@@ -1,0 +1,127 @@
+h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 40pt;
+    background-color: #f2f2f2;
+    border-style: outset;
+    border-radius: 15px 50px; 
+    border-bottom: 4px dotted #CD0000;
+    style: center;
+    text-align: center;
+    text-shadow: 2px 2px 8px #7F7F7F
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40pt;
+    text-shadow: 2px 2px 8px #7F7F7F;
+    text-decoration-line: underline;
+    
+}
+
+
+     
+}
+
+h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20pt;
+}
+
+nav{
+  border-left: 6px solid #CD0000;
+  background-color: #D1D1D1;
+  border-radius: 15px 50px 30px 5px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 12pt;
+  table-layout: fixed;
+  width: 180px; 
+  float: left;
+}
+
+  img {
+      
+      width: 60em;
+      height: 30em;
+      border-style: outset;
+      border-color: #7F7F7F;
+      border-radius: 2rem;
+      border-left: 6px solid #CD0000;
+  }
+
+  section{
+    background-color: #FFF5EE;
+    width: 95%;
+    height: ;
+    border-radius: 15px 50px 30px 5px;
+    border-style: outset;
+    border-left: 6px solid #CD0000;
+
+  }
+  
+
+body{ 
+    background-color: #FFFFFF;
+
+}
+main{
+    font-family: 'Oswald', sans-serif;
+
+}
+p{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 12pt;
+    background-color: #D1D1D1;
+    border-radius: 15px 50px; 
+    border-bottom: 4px dotted #CD0000;
+    style: center;
+    text-align: center;
+    text-shadow: 2px 2px 8px #7F7F7F
+
+}
+
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+ 
+  width: 0%;
+
+  transition: all ease-in-out 400ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+
+
+  
+
+
