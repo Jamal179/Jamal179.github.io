@@ -16,7 +16,6 @@ h1{
   color:white;
 }
 
-
 h2{
     font-family: 'Oswald', sans-serif;
     color: white;
@@ -24,15 +23,13 @@ h2{
     text-shadow: 2px 2px 8px black;
     text-decoration-line: underline;
     
-}
-
-
-     
+}    
 
 h4{
     font-family: 'Montserrat', sans-serif;
     font-size: 20pt;
 }
+
 a:link {
   color: white;
   
@@ -68,13 +65,9 @@ body{
 main{
     font-family: 'Oswald', sans-serif;
     width: 70%;
-    float:right;
-   
-    
+    float:right; 
   
 }
-
-
 
 nav a {
 
@@ -159,9 +152,6 @@ button {
          width: 18em;
        }
 
-  
-    
-
     aside.aside{
    
      float:left;
@@ -170,8 +160,6 @@ button {
 
     aside.aside :hover{
       width: 17em;
-   
-      
      }
 
 
