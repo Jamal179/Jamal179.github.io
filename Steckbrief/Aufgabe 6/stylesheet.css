@@ -8,7 +8,10 @@ li{
   list-style-type: none;
 }
 
-
+img.Schimmelburger{
+  width: 3em;
+  margin: 0em
+}
 
 button.ZZ{
   width: 70%;
@@ -209,8 +212,9 @@ button {
     border: 1px solid white;
     margin:1em;
     padding: 0em;
-    float: right;
-    clear:left;
+   
+    float: left;
+   
     white-space:nowrap;
     overflow: hidden;
   }
@@ -238,7 +242,7 @@ button {
  
 
 }
-Main > div.Box:nth-child(3n+1) {
+Main > div.Box:nth-child(3n+2) {
   Clear: left;
   }
 
@@ -351,11 +355,17 @@ img.cover{
   clear: none;
   overflow: none;
    }
+   Main > div.Box:nth-child(2n+1) {
+    Clear: right;
+    }
   
 }
 @media screen and (max-width: 600px)
 {
-
+  Main > div.Box:nth-child(4n+2) {
+    Clear: left;
+    }
+  
 
     nav
 {
@@ -460,6 +470,9 @@ img.cover{
     font-family: 'Oswald', sans-serif;
     font-size: 10pt;
     color: black;
+  }
+  footer{
+    margin-top:0em;
   }
 
 }
