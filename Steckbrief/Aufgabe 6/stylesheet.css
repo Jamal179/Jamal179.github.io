@@ -9,6 +9,15 @@ li{
 }
 
 
+button.ZZ{
+  width: 70%;
+  height: 12em;
+  position: relative;
+  margin: 1em;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30pt;
+  color: black;
+}
 
 
 img {
@@ -63,8 +72,8 @@ nav{
 }
 
 nav:hover{
-height:12em;
-Transition: all 0.5s ease
+height:20em;
+Transition: all 0.9s ease
 }
 
 
@@ -219,7 +228,15 @@ Main > div.Box:nth-child(3n+1) {
 @media screen and (max-width: 768px)
 {
 
-
+  button.ZZ{
+    width: 30em;
+    height: 12em;
+    position: relative;
+    margin: 1em;
+    font-family: 'Oswald', sans-serif;
+    font-size: 10pt;
+    color: black;
+  }
 
     nav
 {
@@ -229,6 +246,7 @@ Main > div.Box:nth-child(3n+1) {
   text-align: center;
   line-height: 2em;
   float:left;
+
     
 }
 
@@ -239,8 +257,6 @@ div.Box{
   border: 1px solid white;
   margin:1em;
   padding: 0em;
- 
- 
   white-space:nowrap;
   overflow: hidden;
 }
@@ -393,5 +409,14 @@ img.cover{
   clear: none;
   overflow: none;
    }
+   button.ZZ{
+    width: 40em;
+    height: 12em;
+    position: relative;
+    margin: 1em;
+    font-family: 'Oswald', sans-serif;
+    font-size: 10pt;
+    color: black;
+  }
 
 }
