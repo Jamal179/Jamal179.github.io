@@ -9,6 +9,7 @@ li{
 }
 
 
+
 button.ZZ{
   width: 70%;
   height: 12em;
@@ -18,7 +19,23 @@ button.ZZ{
   font-size: 30pt;
   color: black;
 }
+button.ZZZ{
+  width: 70%;
+  height: 12em;
+  position: relative;
+  margin: 1em;
+  margin-top: 8em;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30pt;
+  color: black;
+}
+button.ZZZ:hover{
+background-color: lightblue
+}
 
+button.ZZ:hover{
+  background-color: lightblue
+  }
 
 img {
       
@@ -73,7 +90,7 @@ nav{
 
 nav:hover{
 height:20em;
-Transition: all 0.9s ease
+Transition: all 2s ease
 }
 
 
@@ -86,7 +103,7 @@ body{
 main{
     font-family: 'Oswald', sans-serif;
     width: 70%;
-    float:right; 
+    float:left; 
   
 }
 
@@ -175,7 +192,8 @@ button {
 
     aside.aside{
    
-     float:left;
+     float:right;
+     margin-left;5em
     width: 30%;
     }
 
@@ -207,15 +225,16 @@ button {
 
   }
 
-  footer{
+    footer{
     
-    font-family: 'Oswald', sans-serif;
-    font-size: 13pt;
-    text-align: center;
-    color: white;
-    background-color: rgb(167, 207, 212);
-    margin-top: 200em;
-    text-shadow: 2px 2px 8px black;
+      font-family: 'Oswald', sans-serif;
+      font-size: 13pt;
+      text-align: center;
+      color: white;
+      background-color: rgb(167, 207, 212);
+      text-shadow: 2px 2px 8px black;
+     width: 100%;
+     float: left
  
 
 }
@@ -229,15 +248,28 @@ Main > div.Box:nth-child(3n+1) {
 {
 
   button.ZZ{
-    width: 30em;
+    width: 35em;
     height: 12em;
     position: relative;
     margin: 1em;
     font-family: 'Oswald', sans-serif;
     font-size: 10pt;
     color: black;
+    margin-bottom: 10em;
+   margin-left: 12em
   }
-
+  button.ZZZ{
+    width: 35em;
+    height: 12em;
+    position: relative;
+    margin: 1em;
+    font-family: 'Oswald', sans-serif;
+    font-size: 10pt;
+    color: black;
+    margin-top:10em;
+    margin-left: 12em
+  }
+ 
     nav
 {
   
@@ -410,10 +442,21 @@ img.cover{
   overflow: none;
    }
    button.ZZ{
-    width: 40em;
+    width: 35em;
     height: 12em;
     position: relative;
     margin: 1em;
+    font-family: 'Oswald', sans-serif;
+    font-size: 10pt;
+    color: black;
+    margin-bottom:10em;
+  }
+  button.ZZZ{
+    width: 35em;
+    height: 12em;
+    position: relative;
+    margin: 1em;
+    margin-top:10em;
     font-family: 'Oswald', sans-serif;
     font-size: 10pt;
     color: black;
