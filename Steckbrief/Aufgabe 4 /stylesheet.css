@@ -193,10 +193,9 @@ button {
     text-align: center;
     color: white;
     background-color: rgb(167, 207, 212);
- margin-Top:200em;
     text-shadow: 2px 2px 8px black;
    width: 100%;
-   float: unset
+   float: left
 
 }
 Main > div.Box:nth-child(3n+1) {
