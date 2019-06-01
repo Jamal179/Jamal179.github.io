@@ -39,12 +39,13 @@ let playerXPperLevel : number = 1000;                                           
 
 // Mehrere Arrays, welche jeweils Bauteile für Namen oder Eigenschaften der Monster beinhalten.
 let prefix : string[] = ["todesmutiger", "schrumpfhörniger", "nach Käse schnüffelnder ", "knallrümpfiger", "Gelbfüßiger", "Salzleckstein begehrender", "Tanooki", ]; // length = 6, da 6 Einträge. Von 0-5.
-let monsterName : string[] = [" Guhl", " Schlickschlupf", " Göttling", " Gabelschwanz", " Shinigami", " Elselbrückeningenieur"]; // length = 5, da 5 Einträge. Von 0-4
-let suffix : string[] = [" aus dem Buckelsumpf", " der im dunkeln Leuchtet", " mit Seifenspender-Funktion", " mit Wackelpudding Phobie", " mit Geschlechtverwirrung", " der Affenfußarmee"]; // length = 6, da hier 6 Einträge sind. Von 0-5.
+let monsterName : string[] = [" Guhl", " Schlickschlupf", " Göttling", " Gabelschwanz", " Shinigami", " Eselsbrückeningenieur"]; // length = 5, da 5 Einträge. Von 0-4
+let suffix : string[] = [" aus dem Buckelsumpf", " der im dunkeln Leuchtet", " mit Seifenspender-Funktion", " mit Wackelpudding Phobie", " mit impantierten Hosenbein", " der Affenfußarmee"]; // length = 6, da hier 6 Einträge sind. Von 0-5.
 
 let monsterModifers : string[] = ["wasserfest", "Analphabet", "hat Angst vor Göffel-Zinken", "stinkt", "stubenrein", "spielsüchtig", "aggressiv", "elegant", "rassistisch", "menschenscheu", "Verläuft sich oft"]; // Eine Reihe von zufälligen "Verstärkern" für das Monster.
 let monsterLebensraum: string[] = ["Hochebene" , "Mordor", "Velen", "Westeros", "Namek", "Vertania-City",]
 let monsterBild: string[] = ["imgs/ga.JPG", "imgs/g.JPG", "imgs/gu.JPG" , "imgs/sch.JPG",  "imgs/e.JPG", "imgs/pok.JPG", "imgs/goll.JPG", "imgs/poki.JPG" , "imgs/mosk.JPG",  ]
+// !!! Aus irgendeinem mir unerkrlärlichen Grund laden die bilder nicht in Chrome - nur Safaru und Firefox
 
 
 

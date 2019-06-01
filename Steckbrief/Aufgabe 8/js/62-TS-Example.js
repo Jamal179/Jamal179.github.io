@@ -11,11 +11,12 @@ let playerXP = 0; // Stellt die gesammelte Erfahrung des Spielers dar.
 let playerXPperLevel = 1000; // Da es nur einen Spieler gibt, ergibt sich noch nicht viel Sinn darin, für den Spieler ein interface (im Sinne der Programmierung) zu erstellen.
 // Mehrere Arrays, welche jeweils Bauteile für Namen oder Eigenschaften der Monster beinhalten.
 let prefix = ["todesmutiger", "schrumpfhörniger", "nach Käse schnüffelnder ", "knallrümpfiger", "Gelbfüßiger", "Salzleckstein begehrender", "Tanooki",]; // length = 6, da 6 Einträge. Von 0-5.
-let monsterName = [" Guhl", " Schlickschlupf", " Göttling", " Gabelschwanz", " Shinigami", " Elselbrückeningenieur"]; // length = 5, da 5 Einträge. Von 0-4
-let suffix = [" aus dem Buckelsumpf", " der im dunkeln Leuchtet", " mit Seifenspender-Funktion", " mit Wackelpudding Phobie", " mit Geschlechtverwirrung", " der Affenfußarmee"]; // length = 6, da hier 6 Einträge sind. Von 0-5.
+let monsterName = [" Guhl", " Schlickschlupf", " Göttling", " Gabelschwanz", " Shinigami", " Eselsbrückeningenieur"]; // length = 5, da 5 Einträge. Von 0-4
+let suffix = [" aus dem Buckelsumpf", " der im dunkeln Leuchtet", " mit Seifenspender-Funktion", " mit Wackelpudding Phobie", " mit impantierten Hosenbein", " der Affenfußarmee"]; // length = 6, da hier 6 Einträge sind. Von 0-5.
 let monsterModifers = ["wasserfest", "Analphabet", "hat Angst vor Göffel-Zinken", "stinkt", "stubenrein", "spielsüchtig", "aggressiv", "elegant", "rassistisch", "menschenscheu", "Verläuft sich oft"]; // Eine Reihe von zufälligen "Verstärkern" für das Monster.
 let monsterLebensraum = ["Hochebene", "Mordor", "Velen", "Westeros", "Namek", "Vertania-City",];
 let monsterBild = ["imgs/ga.JPG", "imgs/g.JPG", "imgs/gu.JPG", "imgs/sch.JPG", "imgs/e.JPG", "imgs/pok.JPG", "imgs/goll.JPG", "imgs/poki.JPG", "imgs/mosk.JPG",];
+// !!! Aus irgendeinem mir unerkrlärlichen Grund laden die bilder nicht in Chrome - nur Safaru und Firefox
 // -- Initialisierung für viele/variable Anzahl an Monster --
 let monsterArray = []; // Das Haupt-Array wurde erstellt und initialisiert!
 console.log(monsterArray); // Gebe das Monster-Array einmal zu beginn aus. Es sollte leer sein.
