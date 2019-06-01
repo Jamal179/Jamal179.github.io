@@ -44,7 +44,7 @@ let suffix : string[] = [" aus dem Buckelsumpf", " der im dunkeln Leuchtet", " m
 
 let monsterModifers : string[] = ["wasserfest", "Analphabet", "hat Angst vor Göffel-Zinken", "stinkt", "stubenrein", "spielsüchtig", "aggressiv", "elegant", "rassistisch", "menschenscheu", "Verläuft sich oft"]; // Eine Reihe von zufälligen "Verstärkern" für das Monster.
 let monsterLebensraum: string[] = ["Hochebene" , "Mordor", "Velen", "Westeros", "Namek", "Vertania-City",]
-let monsterBild: string[] = ["imgs/ga.jpg", "imgs/g.jpg", "imgs/gu.jpg" , "imgs/sch.jpg",  "imgs/e.JPG", "imgs/pok.jpg", "imgs/goll.jpg", "imgs/poki.jpg" , "imgs/mosk.jpg",  ]
+let monsterBild: string[] = ["imgs/ga.JPG", "imgs/g.JPG", "imgs/gu.JPG" , "imgs/sch.JPG",  "imgs/e.JPG", "imgs/pok.JPG", "imgs/goll.JPG", "imgs/poki.JPG" , "imgs/mosk.JPG",  ]
 
 
 
