@@ -10,9 +10,9 @@ let playerName = "Spielername"; // Ein paar globale Variablen, welche den Spiele
 let playerXP = 0; // Stellt die gesammelte Erfahrung des Spielers dar.
 let playerXPperLevel = 1000; // Da es nur einen Spieler gibt, ergibt sich noch nicht viel Sinn darin, für den Spieler ein interface (im Sinne der Programmierung) zu erstellen.
 // Mehrere Arrays, welche jeweils Bauteile für Namen oder Eigenschaften der Monster beinhalten.
-let prefix = ["todesmutiger", "schrumpfhörniger", "nach Käse schnüffelnder ", "knallrümpfiger", "Gelbfüßiger", "Salzleckstein begehrender", "Tanooki",]; // length = 6, da 6 Einträge. Von 0-5.
-let monsterName = [" Guhl", " Schlickschlupf", " Göttling", " Gabelschwanz", " Shinigami", " Eselsbrückeningenieur"]; // length = 5, da 5 Einträge. Von 0-4
-let suffix = [" aus dem Buckelsumpf", " der im dunkeln Leuchtet", " mit Seifenspender-Funktion", " mit Wackelpudding Phobie", " mit impantierten Hosenbein", " der Affenfußarmee"]; // length = 6, da hier 6 Einträge sind. Von 0-5.
+let prefix = ["todesmutiger", "schrumpfhörniger", "nach Käse schnüffelnder ", "knallrümpfiger", "Gelbfüßiger", "Salzleckstein begehrender", "Waschmittel inhalierender", " pyromanischer", " Flamingo reitender", " im Kühlschrank vergessener",];
+let monsterName = [" Guhl", " Schlickschlupf", " Göttling", " Gabelschwanz", " Shinigami", " Eselsbrückeningenieur", " Waldschrat", " Busch", " Sandalenträger", " Kaugummi", " Killerjoghurt",];
+let suffix = [" aus dem Buckelsumpf", " der im dunkeln Leuchtet", " mit Seifenspender-Funktion", " mit Wackelpudding Phobie", " mit implantierten Hosenbein", " der Affenfußarmee", " der denkt er sei ein Radiergummi", " mit neuer Hüfte", " mit Paradontose", " der ohne Helm Fahrrad fährt", " der seine gallenblase verlegt hat", " mit psychopatischer Fliege im Kopf"];
 let monsterModifers = ["wasserfest", "Analphabet", "hat Angst vor Göffel-Zinken", "stinkt", "stubenrein", "spielsüchtig", "aggressiv", "elegant", "rassistisch", "menschenscheu", "Verläuft sich oft"]; // Eine Reihe von zufälligen "Verstärkern" für das Monster.
 let monsterLebensraum = ["Hochebene", "Mordor", "Velen", "Westeros", "Namek", "Vertania-City",];
 let monsterBild = ["imgs/ga.JPG", "imgs/g.JPG", "imgs/gu.JPG", "imgs/sch.JPG", "imgs/e.JPG", "imgs/pok.JPG", "imgs/goll.JPG", "imgs/poki.JPG", "imgs/mosk.JPG",];
@@ -70,9 +70,11 @@ function monsterGenerateHTML() {
     // Der Pfad für das Bild muss über setAttribute festgelegt werden. Der Bildpfad kann natürlich auch anders aussehen.
     monsterImg.setAttribute("alt", "Schreckliches Monster"); // Das alt für das Bild wird hier festgelegt.
     holdingDiv.appendChild(monsterImg); // Füge das Bild zu dem holding-div hinzu (<div>, welche ein paar Zeilen zuvor erstellt worden ist)
-    let monsterBtn = document.createElement("BUTTON"); // Erstelle ein <button>-Element
+    let monsterBtn = document.createElement("BUTTON");
+    // Erstelle ein <button>-Element
     monsterBtn.innerHTML = "Monster bekämpfen!"; // Verändere den Inhalt des HTML-Elementes. Der genaue Text ist dabei euch überlassen.
-    holdingDiv.appendChild(monsterBtn); // Füge den Button zu dem holding-div hinzu.
+    holdingDiv.appendChild(monsterBtn);
+    // Füge den Button zu dem holding-div hinzu.
     let monsterCount = monsterArray.length; // Die aktuelle Anzahl vorhandener Monster, zudem auch die neue Zahl für das Monster-Array.
     console.log("Aktuelle Anzahl an Monstern: " + monsterCount);
     monsterBtn.addEventListener(// Füge dem Monster eine Funktion hinzu.
