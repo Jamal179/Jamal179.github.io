@@ -1,10 +1,10 @@
 //////////////////////////////////////ANFANG////////////////////////////////////
 let hanka;
 function hkartenanzahl() {
-    let handkarten = prompt("Um zu beginnen, Tippe eine 6 ein", "");
+    let handkarten = prompt("Um zu beginnen, Tippe eine 5 ein", "");
     hanka = Number(handkarten);
-    if (hanka != 6) {
-        alert("Du hast keine 6 eingefügt! Ich gebe dir noch einen Versuch ");
+    if (hanka != 5) {
+        alert("Du hast keine 5 eingefügt! Ich gebe dir noch einen Versuch ");
         hkartenanzahl();
     }
     return hanka;
@@ -15,255 +15,354 @@ let Karte1 = {
     Wert: "1",
     Typ: "Red",
     Reihenfolge: 1,
+    WunschKarte: false,
 };
 let Karte2 = {
     Wert: "2",
     Typ: "Red",
     Reihenfolge: 2,
+    WunschKarte: false,
 };
 let Karte3 = {
     Wert: "3",
     Typ: "Red",
     Reihenfolge: 3,
+    WunschKarte: false,
 };
 let Karte4 = {
     Wert: "4",
     Typ: "Red",
     Reihenfolge: 4,
+    WunschKarte: false,
 };
 let Karte5 = {
     Wert: "5",
     Typ: "Red",
     Reihenfolge: 5,
+    WunschKarte: false,
 };
 let Karte6 = {
     Wert: "6",
     Typ: "Red",
     Reihenfolge: 6,
+    WunschKarte: false,
 };
 let Karte7 = {
     Wert: "7",
     Typ: "Red",
     Reihenfolge: 7,
+    WunschKarte: false,
 };
 let Karte8 = {
     Wert: "8",
     Typ: "Red",
     Reihenfolge: 8,
+    WunschKarte: false,
 };
 let Karte9 = {
     Wert: "9",
     Typ: "Red",
     Reihenfolge: 9,
+    WunschKarte: false,
 };
 let Karte10 = {
     Wert: "10",
     Typ: "Red",
     Reihenfolge: 10,
+    WunschKarte: false,
 };
 //////////////////////////////////////GELB/////////////////////////////////////
 let Karte11 = {
     Wert: "1",
     Typ: "Gelb",
     Reihenfolge: 11,
+    WunschKarte: false,
 };
 let Karte12 = {
     Wert: "2",
     Typ: "Gelb",
     Reihenfolge: 12,
+    WunschKarte: false,
 };
 let Karte13 = {
     Wert: "3",
     Typ: "Gelb",
     Reihenfolge: 13,
+    WunschKarte: false,
 };
 let Karte14 = {
     Wert: "4",
     Typ: "Gelb",
     Reihenfolge: 14,
+    WunschKarte: false,
 };
 let Karte15 = {
     Wert: "5",
     Typ: "Gelb",
     Reihenfolge: 15,
+    WunschKarte: false,
 };
 let Karte16 = {
     Wert: "6",
     Typ: "Gelb",
     Reihenfolge: 16,
+    WunschKarte: false,
 };
 let Karte17 = {
     Wert: "7",
     Typ: "Gelb",
     Reihenfolge: 17,
+    WunschKarte: false,
 };
 let Karte18 = {
     Wert: "8",
     Typ: "Gelb",
     Reihenfolge: 18,
+    WunschKarte: false,
 };
 let Karte19 = {
     Wert: "9",
     Typ: "Gelb",
     Reihenfolge: 19,
+    WunschKarte: false,
 };
 let Karte20 = {
     Wert: "10",
     Typ: "Gelb",
     Reihenfolge: 20,
+    WunschKarte: false,
 };
 //////////////////////////////////////BLAU/////////////////////////////////////
 let Karte21 = {
     Wert: "1",
     Typ: "Blau",
     Reihenfolge: 21,
+    WunschKarte: false,
 };
 let Karte22 = {
     Wert: "2",
     Typ: "Blau",
     Reihenfolge: 22,
+    WunschKarte: false,
 };
 let Karte23 = {
     Wert: "3",
     Typ: "Blau",
     Reihenfolge: 23,
+    WunschKarte: false,
 };
 let Karte24 = {
     Wert: "4",
     Typ: "Blau",
     Reihenfolge: 24,
+    WunschKarte: false,
 };
 let Karte25 = {
     Wert: "5",
     Typ: "Blau",
     Reihenfolge: 25,
+    WunschKarte: false,
 };
 let Karte26 = {
     Wert: "6",
     Typ: "Blau",
     Reihenfolge: 26,
+    WunschKarte: false,
 };
 let Karte27 = {
     Wert: "7",
     Typ: "Blau",
     Reihenfolge: 27,
+    WunschKarte: false,
 };
 let Karte28 = {
     Wert: "8",
     Typ: "Blau",
     Reihenfolge: 28,
+    WunschKarte: false,
 };
 let Karte29 = {
     Wert: "9",
     Typ: "Blau",
     Reihenfolge: 29,
+    WunschKarte: false,
 };
 let Karte30 = {
     Wert: "10",
     Typ: "Blau",
     Reihenfolge: 30,
+    WunschKarte: false,
 };
 //////////////////////////////////////GRÜN/////////////////////////////////////
 let Karte31 = {
     Wert: "1",
     Typ: "Green",
     Reihenfolge: 31,
+    WunschKarte: false,
 };
 let Karte32 = {
     Wert: "2",
     Typ: "Green",
     Reihenfolge: 32,
+    WunschKarte: false,
 };
 let Karte33 = {
     Wert: "3",
     Typ: "Green",
     Reihenfolge: 33,
+    WunschKarte: false,
 };
 let Karte34 = {
     Wert: "4",
     Typ: "Green",
     Reihenfolge: 34,
+    WunschKarte: false,
 };
 let Karte35 = {
     Wert: "5",
     Typ: "Green",
     Reihenfolge: 35,
+    WunschKarte: false,
 };
 let Karte36 = {
     Wert: "6",
     Typ: "Green",
     Reihenfolge: 36,
+    WunschKarte: false,
 };
 let Karte37 = {
     Wert: "7",
     Typ: "Green",
     Reihenfolge: 37,
+    WunschKarte: false,
 };
 let Karte38 = {
     Wert: "8",
     Typ: "Green",
     Reihenfolge: 38,
+    WunschKarte: false,
 };
 let Karte39 = {
     Wert: "9",
     Typ: "Green",
     Reihenfolge: 39,
+    WunschKarte: false,
 };
 let Karte40 = {
     Wert: "10",
     Typ: "Green",
     Reihenfolge: 40,
+    WunschKarte: false,
+};
+/////////////////////
+let wunschi1 = {
+    Wert: "",
+    Typ: "Wish",
+    Reihenfolge: 37,
+    WunschKarte: true,
+};
+let wunschi2 = {
+    Wert: "",
+    Typ: "Wish",
+    Reihenfolge: 38,
+    WunschKarte: true,
+};
+let wunschi3 = {
+    Wert: "",
+    Typ: "Wish",
+    Reihenfolge: 39,
+    WunschKarte: true,
+};
+let wunschi4 = {
+    Wert: "",
+    Typ: "Wish",
+    Reihenfolge: 40,
+    WunschKarte: true
+};
+let wunschi5 = {
+    Wert: "",
+    Typ: "Wish",
+    Reihenfolge: 37,
+    WunschKarte: true,
+};
+let wunschi6 = {
+    Wert: "",
+    Typ: "Wish",
+    Reihenfolge: 38,
+    WunschKarte: true,
+};
+let wunschi7 = {
+    Wert: "",
+    Typ: "Wish",
+    Reihenfolge: 39,
+    WunschKarte: true,
+};
+let wunschi8 = {
+    Wert: "",
+    Typ: "Wish",
+    Reihenfolge: 40,
+    WunschKarte: true
 };
 ////////////////Gegner/////////////////
 let Karte41 = {
     Wert: "1",
     Typ: "Red",
     Reihenfolge: 1,
+    WunschKarte: false,
 };
 let Karte42 = {
     Wert: "2",
     Typ: "Red",
     Reihenfolge: 2,
+    WunschKarte: false,
 };
 let Karte43 = {
     Wert: "3",
     Typ: "Red",
     Reihenfolge: 3,
+    WunschKarte: false,
 };
 let Karte44 = {
     Wert: "4",
     Typ: "Red",
     Reihenfolge: 4,
+    WunschKarte: false,
 };
 let Karte45 = {
     Wert: "5",
     Typ: "Red",
     Reihenfolge: 5,
+    WunschKarte: false,
 };
 let Karte46 = {
     Wert: "6",
     Typ: "Red",
     Reihenfolge: 6,
+    WunschKarte: false,
 };
 let Karte47 = {
     Wert: "7",
     Typ: "Red",
     Reihenfolge: 7,
+    WunschKarte: false,
 };
 let Karte48 = {
     Wert: "8",
     Typ: "Red",
     Reihenfolge: 8,
+    WunschKarte: false,
 };
 let Karte49 = {
     Wert: "9",
     Typ: "Red",
     Reihenfolge: 9,
+    WunschKarte: false,
 };
 let Karte50 = {
     Wert: "10",
     Typ: "Red",
     Reihenfolge: 10,
+    WunschKarte: false,
 };
 //////////////////////////////////////GELB/////////////////////////////////////
 let Karte51 = {
@@ -422,7 +521,7 @@ let Karte80 = {
 let kartenStapel = [Karte1, Karte2, Karte3, Karte4, Karte5, Karte6, Karte7, Karte8,
     Karte9, Karte10, Karte11, Karte12, Karte13, Karte14, Karte15, Karte16, Karte17, Karte18,
     Karte19, Karte20, Karte21, Karte22, Karte23, Karte24, Karte25, Karte26, Karte27, Karte28,
-    Karte29, Karte30, Karte31, Karte32, Karte33, Karte34, Karte35, Karte36, Karte37, Karte38, Karte39, Karte40];
+    Karte29, Karte30, Karte31, Karte32, Karte33, Karte34, Karte35, Karte36, Karte37, Karte38, Karte39, Karte40, wunschi1, wunschi2, wunschi3, wunschi4, wunschi5, wunschi6, wunschi7, wunschi8];
 //////////////////////////////////////GEGNER KARTENSTAPEL/////////////////////////////////////
 let gegnerKarten = [Karte41, Karte42, Karte43, Karte44, Karte45, Karte46, Karte47, Karte48,
     Karte49, Karte50, Karte51, Karte52, Karte53, Karte54, Karte55, Karte56, Karte57, Karte58,
@@ -494,10 +593,10 @@ function writeHtml(_y) {
     prodElement2.innerHTML = karte;
 }
 //////////////////////////////////////WRITE HTML 2/////////////////////////////////////
-function writeHtml2(_y) {
+function writeHtml2(_y1) {
     let prodElement2 = document.createElement('div');
     document.getElementById("gegner").appendChild(prodElement2);
-    let karte = `<div class="${kartenHand[_y].Typ}" id="${kartenHand[_y].Reihenfolge}">${kartenHand[_y].Wert}</div>`;
+    let karte = `<div class="${kartenHand[_y1].Typ}" id="${kartenHand[_y1].Reihenfolge}">${kartenHand[_y1].Wert}</div>`;
     prodElement2.innerHTML = karte;
 }
 //////////////////////////////////////KARTE ZIEHEN/////////////////////////////////////
@@ -528,8 +627,13 @@ function karteAblegen(event) {
     let i = 0;
     while (s < kartenHand.length) {
         let karteId = event.target;
+        console.log(kartenHand.length);
+        if (ablegestapel.length > 3 && kartenHand.length == 1) {
+            alert("Du hast gewonnen!");
+            console.log("Du hast gewonnen!");
+        }
         if (kartenHand[s].Reihenfolge == Number(karteId.getAttribute("id"))) { //Muss von String zur Number werden um beide vergleichen zu können // läuft Karten im Hand Array einmal durch, wenn es zur geklickten ID passt wird es in den Ablagestapel gepushed
-            if (kartenHand[s].Typ == ablegestapel[ablegestapel.length - 1].Typ || kartenHand[s].Wert == ablegestapel[ablegestapel.length - 1].Wert) {
+            if (kartenHand[s].Typ == ablegestapel[ablegestapel.length - 1].Typ || kartenHand[s].Wert == ablegestapel[ablegestapel.length - 1].Wert || kartenHand[s].WunschKarte != ablegestapel[ablegestapel.length - 1].WunschKarte) {
                 ablegestapel.push(kartenHand[s]);
                 // for(let i: number =0; i < ablegestapel.length; i++){
                 let prodElement = document.createElement('div');
@@ -547,5 +651,9 @@ function karteAblegen(event) {
         }
         s++;
     }
+}
+if (kartenHand.length > 0 && ablegestapel.length > 4) {
+    alert("Du hast gewonnen!");
+    console.log("Du hast gewonnen!");
 }
 //# sourceMappingURL=Karten.js.map
