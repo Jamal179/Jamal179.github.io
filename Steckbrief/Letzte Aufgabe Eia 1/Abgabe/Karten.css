@@ -1,46 +1,4 @@
 
- 
- /* 
- 
-     <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-        <div class="alert"> 
-                
-                
-              </div>  
- 
- 
- The alert message box */ /*
- .closebtn {
-   
-    color: red;
-    margin-left: 40pt;
-    font-weight: bold;
-    text-align: center;
-    font-size: 5em;
-    
-    cursor: pointer;
-    transition: 0.3s;
-  }
-  
- 
- .alert {
-     width: 20%;
-     height: 100%;
-    padding: 16em;
-    background: url(IMG_8575.JPG) #ffffff;
-    background-size: 100%;
-    color: white;
-   
-  }
-  
-
-  .closebtn:hover {
-    color: black;
-  } 
-
-*/
-
-
 
 
 div[class*="Wish"]{
@@ -76,6 +34,7 @@ div[class*="Wish"]:hover{
     -moz-box-shadow: 7px 9px 10px 2px grey;
     box-shadow: 7px 9px 10px 2px grey;
         transform: translateY(4px);}
+        
 
 
 
@@ -327,25 +286,24 @@ border: 0px solid #000000;
 
 
 #gegner{
-
-
+    float: none;
+    display: flex;
+    flex-wrap: wrap; 
     background: url( 180335.jpg) #ffffff;
     background-size: 100%; 
--webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     color: white;
-    text-align: center;
     line-height: 10em;
-    overflow: scroll;
+    overflow: hidden;
     margin: 1em;
     width: 1400px;
     height: 100px;
     border-radius: 29px 29px 29px 29px;
 -moz-border-radius: 29px 29px 29px 29px;
 -webkit-border-radius: 29px 29px 29px 29px;
-border: 0px solid #000000;
-display: flex;
-    flex-wrap: wrap; 
-    justify-content: space-around;
+
+
 }
+
