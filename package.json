@@ -1,0 +1,24 @@
+{
+    "name": "eia22228",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+      "@types/mongodb": "^3.3.11",
+      "mongodb": "^3.3.4"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "start": "node ./eia_endabg_2/server/Server.js remote"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Jamal179/Jamal179.github.io.git"
+    },
+    "author": "JamalUlbricht",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Jamal179/Jamal179.github.io/issues"
+    },
+    "homepage": "https://github.com/Jamal179/Jamal179.github.io#readme"
+  }
