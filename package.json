@@ -9,7 +9,7 @@
     },
     "devDependencies": {},
     "scripts": {
-      "start": "node ./eia_endabg_2/server/Server.js remote"
+      "start": "node eia_endabg_2/server/Server.js"
     },
     "repository": {
       "type": "git",
