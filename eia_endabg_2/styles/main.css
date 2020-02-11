@@ -13,19 +13,19 @@ canvas {
 
 body {
     position: relative;
-    background-color: rgb(228, 149, 70);
+    background-color: rgb(82, 140, 163);
 }
 
 button {
-    position: absolute;
-    right: 0.1 rem;
-    bottom: 0.1 rem;
-    background-color: saddlebrown;
-    border: 1px solid saddlebrown;
-    color:white;
-    margin: 1em;
-    padding: 0.5em;
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #91C9FF;
+    outline: none;
+    transition: 1s ease-in-out;
 }
+
 
 h1 {
     padding: 0.2em;
@@ -37,6 +37,7 @@ h1 {
 h2 {
     font-size: 1.2em;
 }
+
 
 
 
